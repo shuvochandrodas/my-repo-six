@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration:none;
+    color:#000;
+    font-size:16px;
+    font-weight:600;
+}
+li{
+    list-style-type:none;
+}
+/* Header Secto Css Style  */
+.header{
+    padding:80px 120px;
+}
+.header .top-menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header .top-menu .nav-brand .brand-logo{
+    color:#3A3A3A;
+    font-size:24px;
+    font-weight:700;
+    text-transform:uppercase;
+}
+.header .nav-link ul{
+    display:flex;
+}
+.header .nav-link ul li{
+    margin-right:30px;
+    list-style-type:none;
+}
+.header .nav-link ul li:last-child{
+    margin-right:0;
+}
+/* Feature Style Here  */
+.feature{
+    display:flex;
+    justify-content:space-between;
+}
+.feature .feature-content{
+    width:60%;
+    margin-top:145px;
+}
+.feature .feature-content .feature-content-title{
+    color:#3A3A3A;
+    font-size:52px;
+    font-weight:700;
+    line-height:70px;
+}
+.feature .feature-content .feature-content-dis{
+    color:#3A3A3A;
+    font-size:16;
+    font-weight:600;
+    line-height:24px;
+}
+.feature .feature-content .feature-content-btn{
+    background-color:#E02C6D;
+    color:#fff;
+    padding:10px;
+    border-radius:100px;
+    display:inline-block;
+    margin-top:20px;
+}
+.feature .feature-img{
+    margin-top:80px;
+}
+/* Our Company Css  */
+.our-company{
+   display:flex;
+   justify-content:center;
+   padding:70px 0;
+}
+.company{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:70%;
+    border-top:1px solid #ddd6d62e;
+    border-bottom:1px solid #ddd6d62e;
+}
+.our-company .company li{
+    padding:20px 0;
+}
+/* Popular Collection  */
+.popular-collections{
+    display:flex;
+    justify-content:center;
+}
+.popular-collection{
+    margin-bottom:50px;
+}
+.popular-collection h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+.popular-collection-item{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    row-gap:30px;
+    column-gap:30px;
+
+}
+.single-popular-item{
+    width:329px;
+    height:476px;
+    box-shadow:1px 2px 3px #ddd;
+    box-sizing:border-box;
+    padding:15px;
+    border-radius:5px;
+}
+.single-popular-item .product-img img{
+    width:300px;
+    height:256px;
+}
+.single-popular-item .product-title{
+    font-size:28px;
+    font-weight:500;
+    line-height:40px;
+}
+.single-popular-item .product-price{
+    font-size:24px;
+    font-weight:500;
+    line-height:150%;
+}
+.single-popular-item .product-dis{
+    font-size:14px;
+    font-weight:700;
+    line-height:143%;
+}
+.fa-star{
+    color:gold;
+}
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.see-more a{
+    color:rgb(250, 98, 98);
+}
+/* Feature Product Stylesheet  */
+.feature-products{
+    display:flex;
+    justify-content:center;
+    margin:50px 0;
+}
+.product-item{
+    display:flex;
+    width:80%;
+    align-items:center;
+}
+.product-img{
+    width:404px;
+    height:270px;
+}
+.product-info{
+    margin-left:30px;
+}
+.product-info h2{
+    font-size:38px;
+    font-weight:700;
+    line-height:60px;
+}
+.product-info p{
+    font-size:16px;
+    font-weight:700;
+    line-height:28px;
+}
+.product-info a{
+    padding:8px 20px;
+    background-color:rgb(250, 131, 131);
+    display:inline-block;
+    color:#fff;
+}
+/* Footer Stylesheet Css  */
+.footer{
+    background-color:rgb(11, 11, 29);
+    padding:30px;
+    text-align:center;
+    
+}
+.footer-area{
+    
+}
+.social-icon{
+    color:#fff;
+    margin-right:10px;
+    
+}
+.footer-content{
+    margin:0 auto;
+    width:40%;
+}
+.footer-content h3{
+    color:#fff;
+}
+.footer-content p{
+    color:#fff;
+}
